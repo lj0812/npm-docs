@@ -1,0 +1,15 @@
+{
+  "name": "npm-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lj0812",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "description": "",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.0"
+  }
+}
