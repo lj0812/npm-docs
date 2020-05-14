@@ -1,7 +1,7 @@
 /*
  * @Author       : lj0812
  * @Date         : 2020-05-13 00:38:20
- * @LastEditTime : 2020-05-13 16:14:37
+ * @LastEditTime : 2020-05-13 16:43:20
  * @Description  : vuepress config file
  */
 
@@ -56,10 +56,67 @@ module.exports = {
           ]
         }
       ],
-      '/packages-and-modules/': [],
-      '/cli-docs/': []
+      '/packages-and-modules/': [
+        {
+          title: '包和模块介绍',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '向注册表提供包',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '更新和管理发布的包',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '从注册表获取包',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '保护您的代码',
+          collapsable: false,
+          children: [
+
+          ]
+        }
+      ],
+      '/cli-docs/': [
+        {
+          title: 'CLI命令',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '配置npm',
+          collapsable: false,
+          children: [
+
+          ]
+        },
+        {
+          title: '使用npm',
+          collapsable: false,
+          children: [
+
+          ]
+        }
+      ]
     }
   },
-
-  plugins: ['@vuepress/back-to-top']
+  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress']
 }
