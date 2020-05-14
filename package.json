@@ -8,8 +8,9 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "description": "",
+  "description": "npm 学习",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.0"
+    "@vuepress/plugin-back-to-top": "^1.5.0",
+    "@vuepress/plugin-nprogress": "^1.5.0"
   }
 }
